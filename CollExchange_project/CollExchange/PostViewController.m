@@ -81,7 +81,7 @@
     else{
         AWSS3TransferManager *transferManager = [AWSS3TransferManager defaultS3TransferManager];
         AWSS3TransferManagerUploadRequest *uploadRequest = [AWSS3TransferManagerUploadRequest new];
-        uploadRequest.bucket = @"andyweicao";
+        uploadRequest.bucket = @"#######";
         uploadRequest.key = _filename;
         uploadRequest.body = _fileUrl;
         [[transferManager upload:uploadRequest] continueWithExecutor:[BFExecutor mainThreadExecutor]

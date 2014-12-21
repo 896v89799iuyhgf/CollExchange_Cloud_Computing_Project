@@ -108,7 +108,7 @@
     message.subject = subject;
     message.body = body;
     AWSSESSendEmailRequest *request = [[AWSSESSendEmailRequest  alloc] init];
-    request.source = @"andyweicao@gmail.com";
+    request.source = @"#################";
     request.destination = dadad;
     request.message = message;
     //NSLog(@"good");
