@@ -32,8 +32,22 @@
     
     _user.text = _usernametext;
     //NSLog(@"%@", _usertableRow.friends);
+    UITapGestureRecognizer *tap = [[UITapGestureRecognizer alloc]
+                                   initWithTarget:self
+                                   action:@selector(dismissKeyboard)];
+    
+    [self.view addGestureRecognizer:tap];
+
     
 }
+
+-(void)dismissKeyboard {
+    [_searchtext resignFirstResponder];
+    
+    
+    
+}
+
 
 - (void)viewWillAppear:(BOOL)animated{
     [super viewWillAppear:YES];

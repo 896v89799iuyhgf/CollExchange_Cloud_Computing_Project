@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>FB17F67D-2E3D-47E0-8287-CD563CB9401B</string>
+	<key>IDESourceControlProjectName</key>
+	<string>CollExchange</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>8AF26FB715BA05694177D1AACF6BEE3ED11A1394</key>
+		<string>https://github.com/andyweicao/CollExchange_Cloud_Computing_Project.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>CollExchange_project/CollExchange.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>8AF26FB715BA05694177D1AACF6BEE3ED11A1394</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/andyweicao/CollExchange_Cloud_Computing_Project.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>8AF26FB715BA05694177D1AACF6BEE3ED11A1394</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>8AF26FB715BA05694177D1AACF6BEE3ED11A1394</string>
+			<key>IDESourceControlWCCName</key>
+			<string>CollExchange_Cloud_Computing_Project</string>
+		</dict>
+	</array>
+</dict>
+</plist>

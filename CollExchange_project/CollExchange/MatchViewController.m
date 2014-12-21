@@ -105,7 +105,7 @@
         condition4.comparisonOperator = AWSDynamoDBComparisonOperatorContains;
         
         AWSDynamoDBScanExpression *scanExpression = [AWSDynamoDBScanExpression new];
-        scanExpression.exclusiveStartKey = nil;
+        scanExpression.exclusiveStartKey = self.lastEvaluatedKey;
         scanExpression.limit = @20;
         if ([_searchtype length] == 0) {
             scanExpression.scanFilter = @{@"value": condition2,@"username": condition1,@"college": condition3};

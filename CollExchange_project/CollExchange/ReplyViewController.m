@@ -38,6 +38,7 @@
 
 -(void)dismissKeyboard {
     [_replyMessage resignFirstResponder];
+    [_receiverusernametext resignFirstResponder];
     
 }
 
